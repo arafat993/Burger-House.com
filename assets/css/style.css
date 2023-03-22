@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap");
+
+body {
+  margin: 0;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #000;
+}
+.brown {
+  color: #43200c;
+}
+.font-bebas-neue {
+  font-family: "Bebas Neue", cursive;
+}
+.padding-20px {
+  padding: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+/* ---------------quiick class end--------------- */
+.header-area {
+  background-color: #ccc;
+  min-height: 400px;
+  overflow: hidden;
+  padding: 20px;
+}
+.header-area .logo {
+}
+.header-area .logo a {
+}
+.header-area .logo a img {
+  width: 180px;
+}
+.contact-us {
+}
+.contact-us img {
+  width: 33px;
+  overflow: hidden;
+  margin-right: 3px;
+}
+.contact-us h3 {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+.information {
+  text-align: right;
+}
+.main-menu {
+  float: right;
+}
+.main-menu ul {
+}
+.main-menu ul li {
+  margin-right: 35px;
+  list-style: none;
+  display: inline;
+}
+.main-menu ul li:last-child {
+  margin-right: 0;
+}
+.main-menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #43200c;
+  font-size: 14px;
+  height: 10px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
+}
+.banner-content {
+  margin-top: 120px;
+}
+.banner-content p {
+  margin: 0;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.8px;
+  font-size: 18px;
+  border: 2px dashed #43200c;
+  color: #43200c;
+  display: inline;
+  padding: 5px;
+  margin: 0;
+}
+.banner-content h2 {
+  font-size: 80px;
+  text-transform: uppercase;
+  font-family: "Alfa Slab One", cursive;
+  font-weight: bold;
+  color: #43200c;
+  margin: 0;
+  letter-spacing: 2.5px;
+  margin-top: 14px;
+  text-shadow: 2px 3px 0px #fff;
+}
+.banner-content h5 {
+  font-family: "Alfa Slab One", cursive;
+  margin: 0;
+  text-transform: uppercase;
+  color: #43200c;
+  font-size: 35px;
+  text-shadow: 2px 3px 0px #fff;
+}
+.offer-position {
+  position: relative;
+}
+.offer {
+  background: #de1c1b;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  color: #fff;
+  position: absolute;
+  padding: 8px;
+  font-family: "Bebas Neue", cursive;
+  left: 150px;
+  bottom: 100px;
+}
+.offer h3 {
+  margin: 0;
+  font-size: 38px;
+}
+.offer h3 span {
+  font-size: 22px;
+}
+.offer p {
+  margin: 0;
+  letter-spacing: 5.4px;
+  font-size: 20px;
+}
+.boder-dashed {
+  border: 2px dashed #fff;
+  border-radius: 50%;
+  padding: 25px;
+}
+.burger-image {
+}
+.burger-image img {
+  width: 700px;
+}
+/* -----------header area css end-
+--------- */
+.about-section {
+  background-color: #ffffff;
+}
+.bg-image-big {
+  width: 100%;
+  height: 300px;
+  background-position: center center;
+  border-radius: 5px;
+  background-size: cover;
+}
+.bg-image-small-1 {
+  width: 100%;
+  height: 140px;
+  background-position: center center;
+  border-radius: 5px;
+  background-size: cover;
+}
+.bg-image-small-2 {
+  width: 100%;
+  height: 140px;
+  background-position: center center;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-size: cover;
+}
+.about-padding {
+  padding: 80px;
+}
+/* -----------about area css end---------- */
+.shop-section {
+  min-height: 600px;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+}
+.heading-line {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.heading-line h5 {
+  background-color: #ffc045;
+  padding: 5px;
+  color: #3d2514;
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+  width: 220px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.heading-line h3 {
+  padding: 5px 5px;
+  color: #3d2514;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 55px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.heading-line p {
+  font-size: 15px;
+  width: 80%;
+  margin: auto;
+}
+.shop-item {
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.shop-image img {
+  width: 90%;
+  height: auto;
+}
+.shop-content h3 {
+  color: #54331c;
+  font-family: "Bebas Neue", cursive;
+  font-size: 35px;
+}
+.shop-content p {
+  color: #3d2514;
+  margin: 10px auto;
+  font-size: 16px;
+}
+.shop-content a {
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #bf2222;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 18px;
+	color: #fff;
+	padding: 5px;
+	display: block;
+	width: 180px;
+	margin: auto;
+	margin-top: 20px;
+	letter-spacing: .8px;
+}
+/* -----------shop area css end---------- */
+
+.testimonial-section{
+	min-height: 400px;
+	padding: 100px 0;
+}
+element.style {
+    padding: 50px;
+}	
